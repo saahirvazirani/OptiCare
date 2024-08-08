@@ -13,6 +13,7 @@
 		EAE37A7D2C5EAB8600C6DA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE37A7C2C5EAB8600C6DA2D /* Preview Assets.xcassets */; };
 		EAE37A7F2C5EAB8600C6DA2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE37A7E2C5EAB8600C6DA2D /* Persistence.swift */; };
 		EAE37A822C5EAB8600C6DA2D /* OptiCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAE37A802C5EAB8600C6DA2D /* OptiCare.xcdatamodeld */; };
+		EAE37A892C644D7C00C6DA2D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAE37A882C644D7C00C6DA2D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EAE37A7C2C5EAB8600C6DA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAE37A7E2C5EAB8600C6DA2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EAE37A812C5EAB8600C6DA2D /* OptiCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OptiCare.xcdatamodel; sourceTree = "<group>"; };
+		EAE37A882C644D7C00C6DA2D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		EAE37A692C5EAB8500C6DA2D = {
 			isa = PBXGroup;
 			children = (
+				EAE37A882C644D7C00C6DA2D /* .gitignore */,
 				EAE37A742C5EAB8500C6DA2D /* OptiCare */,
 				EAE37A732C5EAB8500C6DA2D /* Products */,
 			);
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE37A7D2C5EAB8600C6DA2D /* Preview Assets.xcassets in Resources */,
+				EAE37A892C644D7C00C6DA2D /* .gitignore in Resources */,
 				EAE37A7A2C5EAB8600C6DA2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,12 +281,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OptiCare/Preview Content\"";
 				DEVELOPMENT_TEAM = 93T9AT2QKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OptiCare;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,12 +313,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OptiCare/Preview Content\"";
 				DEVELOPMENT_TEAM = 93T9AT2QKK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OptiCare;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
